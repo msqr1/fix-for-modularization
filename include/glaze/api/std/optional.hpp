@@ -4,8 +4,10 @@
 #pragma once
 
 #include <optional>
+#include <string_view>
 
 #include "glaze/core/meta.hpp"
+#include "glaze/util/string_literal.hpp"
 
 namespace glz
 {

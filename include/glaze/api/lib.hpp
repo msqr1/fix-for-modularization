@@ -4,10 +4,13 @@
 #pragma once
 
 #include <filesystem>
-#include <map>
+#include <memory>
+#include <string>
 #include <string_view>
+#include <vector>
 
 #include "glaze/api/api.hpp"
+#include "glaze/util/string_literal.hpp"
 
 #if defined(_WIN32) || defined(__CYGWIN__)
 #ifndef GLAZE_API_ON_WINDOWS

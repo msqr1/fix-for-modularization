@@ -4,6 +4,10 @@
 #pragma once
 
 #include <array>
+#include <concepts>
+#include <cstddef>
+#include <cstdint>
+#include <string_view>
 
 #include "glaze/api/hash.hpp"
 #include "glaze/core/common.hpp"

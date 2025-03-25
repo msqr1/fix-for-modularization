@@ -3,10 +3,18 @@
 
 #pragma once
 
+#include <concepts>
 #include <filesystem>
+#include <string>
+#include <type_traits>
+#include <unordered_map>
 
+#include "glaze/core/common.hpp"
+#include "glaze/core/context.hpp"
+#include "glaze/core/opts.hpp"
 #include "glaze/core/write.hpp"
-#include "glaze/file/file_ops.hpp"
+#include "glaze/json/write.hpp"
+#include "glaze/util/string_literal.hpp"
 
 namespace glz
 {

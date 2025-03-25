@@ -3,9 +3,11 @@
 
 #pragma once
 
+#include <string_view>
 #include <vector>
 
 #include "glaze/core/meta.hpp"
+#include "glaze/util/string_literal.hpp"
 
 namespace glz
 {

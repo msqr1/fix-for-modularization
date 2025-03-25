@@ -3,10 +3,13 @@
 
 #pragma once
 
+#include <cstddef>
 #include <span>
+#include <string_view>
 
 #include "glaze/api/hash.hpp"
 #include "glaze/core/meta.hpp"
+#include "glaze/util/string_literal.hpp"
 
 namespace glz
 {

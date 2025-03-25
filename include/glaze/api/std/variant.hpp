@@ -3,9 +3,13 @@
 
 #pragma once
 
+#include <cstddef>
+#include <string_view>
+#include <utility>
 #include <variant>
 
 #include "glaze/core/meta.hpp"
+#include "glaze/util/string_literal.hpp"
 
 namespace glz
 {

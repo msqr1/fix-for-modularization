@@ -3,8 +3,13 @@
 
 #pragma once
 
+#include <cstddef>
+#include <string_view>
+#include <utility>
+
 #include "glaze/core/meta.hpp"
 #include "glaze/tuplet/tuple.hpp"
+#include "glaze/util/string_literal.hpp"
 
 namespace glz
 {

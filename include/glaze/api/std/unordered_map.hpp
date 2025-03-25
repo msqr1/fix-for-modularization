@@ -3,9 +3,11 @@
 
 #pragma once
 
+#include <string_view>
 #include <unordered_map>
 
 #include "glaze/core/meta.hpp"
+#include "glaze/util/string_literal.hpp"
 
 namespace glz
 {

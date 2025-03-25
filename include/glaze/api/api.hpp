@@ -3,17 +3,20 @@
 
 #pragma once
 
+#include <array>
+#include <cstdint>
 #include <functional>
 #include <map>
 #include <memory>
 #include <span>
-#include <stdexcept>
+#include <string>
+#include <type_traits>
+#include <utility>
 
-#include "glaze/api/std/string.hpp"
 #include "glaze/api/trait.hpp"
 #include "glaze/core/context.hpp"
-#include "glaze/core/opts.hpp"
 #include "glaze/util/expected.hpp"
+#include "glaze/util/string_literal.hpp"
 
 namespace glz
 {
